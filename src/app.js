@@ -1238,7 +1238,7 @@ App={
         App.Kovan="0x70Cb84cAB67Ab0E8D30A99c08a5D6DD21c585FCa";
         App.Goerli="0x634CdABb2177491aC07517929E35fBB237086906";
         console.log(App.network,"adfsdasfads")
-        let mx = "0xf665EF9BaC32ffbdE7FCF06e745BDe22dc9c9a52"
+        let mx = "0x25241f780718ab831cE32C34c26854F758e30119"
         if(App.network=="kovan") App.contracts.dwitter = new web3.eth.Contract(abi, App.Kovan);
         else if(App.network=="rinkeby") App.contracts.dwitter = new web3.eth.Contract(abi, App.Rinkeby);
         else if(App.network=="ropsten") App.contracts.dwitter = new web3.eth.Contract(abi, App.Ropsten);

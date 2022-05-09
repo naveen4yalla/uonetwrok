@@ -52,7 +52,7 @@
   "sourceMap": "66:352:0:-:0;;;90:33;;;-1:-1:-1;;;;;;90:33:0;113:10;90:33;;;66:352;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "66:352:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;127:36;;;:::i;:::-;;;;;;;;;;;;;;;;90:33;;;:::i;:::-;;;;-1:-1:-1;;;;;90:33:0;;;;;;;;;;;;;;313:103;;;;;;;;;;;;;;;;-1:-1:-1;313:103:0;;:::i;:::-;;127:36;;;;:::o;90:33::-;;;-1:-1:-1;;;;;90:33:0;;:::o;313:103::-;225:5;;-1:-1:-1;;;;;225:5:0;211:10;:19;196:101;;;;-1:-1:-1;;;196:101:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;375:24:::1;:36:::0;313:103::o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.8.0;\n\ncontract Migrations {\n  address public owner = msg.sender;\n  uint public last_completed_migration;\n\n  modifier restricted() {\n    require(\n      msg.sender == owner,\n      \"This function is restricted to the contract's owner\"\n    );\n    _;\n  }\n\n  function setCompleted(uint completed) public restricted {\n    last_completed_migration = completed;\n  }\n}\n",
-  "sourcePath": "/Users/naveenyalla/Downloads/Decentralized_Social_Media-main/contracts/Migrations.sol",
+  "sourcePath": "/Users/naveenyalla/Downloads/UOChat/contracts/Migrations.sol",
   "ast": {
     "absolutePath": "project:/contracts/Migrations.sol",
     "exportedSymbols": {
@@ -915,12 +915,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x00e0ba49f9A41480F5c566d31938055cA5B8082C",
-      "transactionHash": "0x1d02feeb9e56a34e3f5beec9f5c8a9259f4374fb0576c8b74b9c740263c512d5"
+      "address": "0xa914F504e2dDCf017E542512dB820EB3C9C65B56",
+      "transactionHash": "0x651b17be5c2edcbc1ad3ca2140b6578e2da7403c8b06221a47b56d6185650dba"
     }
   },
   "schemaVersion": "3.4.6",
-  "updatedAt": "2022-05-07T22:17:55.001Z",
+  "updatedAt": "2022-05-09T19:52:41.665Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

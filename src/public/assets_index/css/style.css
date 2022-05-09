@@ -300,3 +300,6 @@ color: #0084b4;
   background-image: url('../img/logo.png');
   object-fit: contain;
 }
+.post-description{
+  color: black;
+}

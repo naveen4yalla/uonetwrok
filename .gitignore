@@ -1,3 +1,11 @@
 .vscode/
 bin/
 node_modules/
+
+# OS / editor junk
+.DS_Store
+*.swp
+
+# Secrets — never commit
+.secret
+.env

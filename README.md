@@ -67,7 +67,15 @@ npm run dev                # local dev server
 
 ## Screenshots
 
-_Screenshots coming soon._
+### Feed
+
+![Dwitter feed UI](docs/screenshots/ui.png)
+
+### Admin dashboard
+
+![Dwitter admin dashboard](docs/screenshots/admin.png)
+
+The frontend UI as rendered in a plain browser without a connected wallet — layout, navigation, and panels are shown; on-chain content (dweets, feed items) loads once a wallet is connected.
 
 ## Credit
 
